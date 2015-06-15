@@ -17,7 +17,7 @@ You can install this via the command-line with either `curl` or `wget`.
 * [mkcd plugin](plugins/mkcd)
 * [custom defaults in zshrc](templates/zshrc.zsh-template)
 
-_<end of customization>_
+_end of customization_
 
 ---
 
