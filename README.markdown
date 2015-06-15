@@ -1,3 +1,23 @@
+### Custom brew of Oh My Zsh
+
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl` or `wget`.
+
+#### via curl
+
+`sh -c "$(curl -fsSL https://raw.github.com/mlapin/oh-my-zsh/master/tools/install.sh)"`
+
+#### via wget
+
+`sh -c "$(wget https://raw.github.com/mlapin/oh-my-zsh/master/tools/install.sh -O -)"`
+
+#### What's different?
+
+* [ssp plugin](plugins/ssp)
+* [new theme](themes/mlapin.zsh-theme)
+* [modified zshrc template](templates/zshrc.zsh-template)
+
+---
+
 ![Oh My Zsh](https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png)
 
 
