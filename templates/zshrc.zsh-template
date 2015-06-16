@@ -56,6 +56,8 @@ plugins=(git ssp mkcd)
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export ZSH_COMPDUMP="${HOME}/.zcompdump"
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
@@ -67,9 +69,6 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-if [[ -f /usr/local/bin/mate ]]; then
-  export EDITOR="/usr/local/bin/mate -w"
-fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
