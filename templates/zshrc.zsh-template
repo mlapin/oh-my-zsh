@@ -56,7 +56,7 @@ plugins=(git ssp mkcd)
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
-export ZSH_COMPDUMP="${HOME}/.zcompdump"
+export ZSH_COMPDUMP=$HOME/.zcompdump
 
 source $ZSH/oh-my-zsh.sh
 
