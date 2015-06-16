@@ -47,7 +47,7 @@ local prompt_user_at_host='%{$fg['$prompt_host_color']%}%n@%m%{$reset_color%}'
 local prompt_exit_code='%(?..%{$fg[red]%}%?%{$reset_color%})'
 
 PS1="%(?..[ %{%B%F{red}%}%?%{%f%b%} ])
-[$prompt_time] $prompt_user_at_host $prompt_path "'$(custom_git_prompt)
+[$prompt_time] $prompt_user_at_host:$prompt_path "'$(custom_git_prompt)
 %{%F{green}%}%(!.#.$)%{%f%} '
 
 RPROMPT=''
